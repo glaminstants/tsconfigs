@@ -1,0 +1,11 @@
+{
+  "name": "tsconfigs",
+  "version": "1.0.0",
+  "private": true,
+  "repository": "git@github.com:glaminstants/tsconfigs.git",
+  "author": "Fábio Ferreira <ffcfpten@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "semantic-release": "^22.0.5"
+  }
+}
