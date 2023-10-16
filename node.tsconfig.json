@@ -8,8 +8,8 @@
     "noImplicitAny": true,
     "strictNullChecks": true,
     "allowImportingTsExtensions": false,
-    "checkJs": true,
     "forceConsistentCasingInFileNames": true,
+    "checkJs": true,
     "allowJs": true
   }
 }

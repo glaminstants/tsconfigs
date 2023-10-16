@@ -6,11 +6,6 @@ refs:
       branches:
         only: master
 
-  - &not_master
-    filters:
-      branches:
-        ignore: master
-
 orbs:
   node: circleci/node@5.1.0
 
