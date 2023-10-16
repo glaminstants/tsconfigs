@@ -1,0 +1,34 @@
+version: 2.1
+
+refs:
+  - &only_master
+    filters:
+      branches:
+        only: master
+
+  - &not_master
+    filters:
+      branches:
+        ignore: master
+
+orbs:
+  node: circleci/node@5.0.2
+
+jobs:
+  release_package:
+    executor: node/default
+    steps:
+      - checkout
+      - node/install-packages:
+          pkg-manager: yarn
+      - run:
+          command: yarn semantic-release
+          name: Release
+
+workflows:
+  release:
+    jobs:
+      - release_package:
+        <<: *only_master
+        context:
+          - common-env-vars
