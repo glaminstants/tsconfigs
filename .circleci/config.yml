@@ -30,5 +30,4 @@ workflows:
     jobs:
       - release_package:
         <<: *only_master
-        context:
-          - common-env-vars
+        context: common-env-vars
