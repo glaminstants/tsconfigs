@@ -12,7 +12,7 @@ refs:
         ignore: master
 
 orbs:
-  node: circleci/node@5.0.2
+  node: circleci/node@5.1.0
 
 jobs:
   release_package:
@@ -26,8 +26,10 @@ jobs:
           name: Release
 
 workflows:
+  version: 2
   release:
     jobs:
-      - release_package:
+      - release_package
         <<: *only_master
-        context: common-env-vars
+        context:
+          - common-env-vars
