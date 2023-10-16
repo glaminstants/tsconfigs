@@ -1,9 +1,13 @@
 {
   "name": "tsconfigs",
+  "version": "1.0.3",
   "private": true,
   "repository": "git@github.com:glaminstants/tsconfigs.git",
   "author": "Fábio Ferreira <ffcfpten@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "release": "yarn semantic-release --no-ci"
+  },
   "devDependencies": {
     "semantic-release": "^22.0.5"
   }
