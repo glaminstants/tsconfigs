@@ -26,10 +26,9 @@ jobs:
           name: Release
 
 workflows:
-  version: 2
   release:
     jobs:
-      - release_package
-        <<: *only_master
-        context:
-          - common-env-vars
+      - release_package:
+          <<: *only_master
+          context:
+            - common-env-vars
