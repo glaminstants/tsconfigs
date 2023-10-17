@@ -1,10 +1,6 @@
 {
   "compileOnSave": true,
   "compilerOptions": {
-    "outDir": "dist",
-    "incremental": true,
-    "rootDir": "src",
-    "tsBuildInfoFile": "dist/.tsbuildinfo",
     "module": "ES2022",
     "noImplicitAny": true,
     "strictNullChecks": true,
