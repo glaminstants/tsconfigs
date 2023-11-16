@@ -14,6 +14,9 @@ jobs:
     executor: node/default
     steps:
       - checkout
+      - run:
+          name: NPM Authentication
+          command: echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > ~/.npmrc
       - node/install-packages:
           pkg-manager: yarn
       - run:
