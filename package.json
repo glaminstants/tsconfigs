@@ -1,5 +1,6 @@
 {
   "name": "@glaminstants/tsconfigs",
+  "type": "module",
   "repository": "git@github.com:glaminstants/tsconfigs.git",
   "author": "Fábio Ferreira <ffcfpten@gmail.com>",
   "license": "MIT",
