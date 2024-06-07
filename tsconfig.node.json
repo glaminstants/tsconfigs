@@ -1,10 +1,10 @@
 {
   "compileOnSave": true,
   "compilerOptions": {
-    "module": "ES2022",
+    "module": "Node16",
     "target": "ES2022",
     "moduleDetection": "auto",
-    "moduleResolution": "Bundler",
+    "moduleResolution": "Node16",
     "declaration": true,
     "noImplicitAny": true,
     "strictNullChecks": true,
