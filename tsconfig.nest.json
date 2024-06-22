@@ -18,7 +18,8 @@
     "skipLibCheck": true,
     "strictBindCallApply": false,
     "forceConsistentCasingInFileNames": false,
-    "noFallthroughCasesInSwitch": false
+    "noFallthroughCasesInSwitch": false,
+    "resolveJsonModule": true
   },
   "include": ["./src", "./libs"]
 }
