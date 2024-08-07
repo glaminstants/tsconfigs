@@ -9,6 +9,7 @@
     "sourceMap": true,
     "declaration": true,
     "incremental": true,
+    "strict": true,
     "strictNullChecks": false,
     "noImplicitAny": false,
     "removeComments": true,
