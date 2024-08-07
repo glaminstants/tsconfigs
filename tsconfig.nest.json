@@ -11,17 +11,18 @@
     "incremental": true,
     "strict": true,
     "strictNullChecks": true,
+    "strictPropertyInitialization": false,
+    "strictBindCallApply": true,
     "noImplicitAny": true,
     "removeComments": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "allowSyntheticDefaultImports": true,
-    "skipLibCheck": true,
-    "strictBindCallApply": true,
+    "allowImportingTsExtensions": false,
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
     "resolveJsonModule": true,
-    "allowImportingTsExtensions": false
+    "skipLibCheck": true
   },
   "include": ["./src", "./libs"]
 }
