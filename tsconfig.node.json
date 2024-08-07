@@ -6,14 +6,21 @@
     "moduleDetection": "auto",
     "moduleResolution": "Node16",
     "declaration": true,
-    "noImplicitAny": true,
     "strict": true,
     "strictNullChecks": true,
-    "allowImportingTsExtensions": false,
+    "noImplicitAny": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "strictBindCallApply": true,
     "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "resolveJsonModule": true,
+    "allowImportingTsExtensions": false,
     "checkJs": true,
-    "allowJs": true,
-    "resolveJsonModule": true
+    "allowJs": true
   },
   "include": ["./src"]
 }
